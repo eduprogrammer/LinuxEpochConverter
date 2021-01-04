@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1609724934 source:/home/pi/c++/LinuxEpochConverter/test.cpp
+	"epoch.h"
+	<iostream>
+
+1609725114 /home/pi/c++/LinuxEpochConverter/lepoch_conv.h
+	<ctime>
+	"epoch_types.h"
+
+1609725410 /home/pi/c++/LinuxEpochConverter/epoch.h
+	"lepoch_conv.h"
+	<cstring>
+	<cstdlib>
+	<cstdio>
+	<malloc.h>
+
+1609690234 source:/home/pi/c++/LinuxEpochConverter/lepoch_conv.cpp
+	"lepoch_conv.h"
+	<cstring>
+	<cstdlib>
+	<cstdio>
+
+1609725434 /home/pi/c++/LinuxEpochConverter/epoch_types.h
+	<malloc.h>
+
